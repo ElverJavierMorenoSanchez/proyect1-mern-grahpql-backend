@@ -18,7 +18,7 @@ const startApolloServer = async (typeDefs, resolvers) => {
   await new Promise((resolve) =>
     httpServer.listen({ port: process.env.PORT }, resolve)
   );
-  console.log(`🚀 Server ready at http://localhost:${process.env.PORT}`);
+  console.log(`🚀 Server ready at http://local:${process.env.PORT}`);
 };
 
 export default startApolloServer;
